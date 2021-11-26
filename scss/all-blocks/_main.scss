@@ -3,3 +3,262 @@
     flex-grow: 1;
 
 }
+
+
+// OUR COLLECTION
+
+.collection{
+    margin-top: 200px;
+    background-image: url("../images/our\ collection.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30px;
+    background-size: 1072px;
+
+&__container{
+    width: 1111px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 100px;
+
+.collection__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+
+
+
+
+.collection__item {
+
+
+    list-style: none;
+
+}
+.collection__img{
+    width: 256px;
+    height: 193px;
+}
+}
+.our__collection-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 188px;
+
+
+.our__collection-item{
+    list-style: none;
+    width: 256px;
+}
+.our__collection-head{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+    margin-bottom: 24px;
+}
+.our__collection-desc{
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+}
+}
+}
+
+/* <!-- WHY CHOOSE US? --> */
+
+.choose__container{
+    width: 1280px;
+    height: 577px;
+    background-color: #2C343E;
+
+.choose__head{
+    margin-top: 112px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+    padding-top: 112px;
+
+
+}
+.choose__desc{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 540px;
+    margin-left: 360px;
+
+}
+
+.choose__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 86px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+.choose__item{
+    list-style: none;
+    width: 350px;
+    height: 380px;
+    border: 1px solid#0E8784;
+    background-color: #0E8784;
+    border-radius: 10px;
+
+}
+.choose__item-img{
+    width: 71px;
+    height: 72px;
+    margin-top: 72px;
+    margin-left: 136px;
+
+}
+.choose__item-img1{
+    width: 80px;
+    height: 72px;
+    margin-top: 72px;
+    margin-left: 136px;
+}
+.choose__item-head{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+.choose__item-desc{
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    width: 255px;
+    margin-left: 47px;
+}
+}
+}
+
+//  HOW IT WORKS
+
+.works__container{
+    width: 1145px;
+    margin-top: 400px;
+}
+.works__head{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.works__top{
+    margin-top: 80px;
+    margin-bottom: 67px;
+}
+.works__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: -22px;
+
+}
+.works__item{
+    list-style: none;
+}
+.works__item+.works__item{
+    margin-left: 350px;
+}
+
+
+.it__works-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 38px;
+
+}
+.it__works-item{
+    list-style: none;
+}
+.it__works-item+.it__works-item{
+    margin-left: 285px;
+}
+
+
+
+.work__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 80px;
+
+
+}
+.work__item{
+    list-style: none;
+}
+.work__item+.work__item{
+    margin-left: 95px;
+}
+.work__item-head{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    width: 255px;
+    margin-bottom: 42px;
+}
+.works__item-desc{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    width: 285px;
+}

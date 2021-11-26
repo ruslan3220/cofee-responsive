@@ -1,0 +1,18 @@
+.main__btn{
+    color: #fff;
+    padding: 16px 32px;
+    border: 1px solid #66D2CF;
+    border-radius: 10px;
+    background: #66D2CF;
+    width: 256px;
+    height: 56px;
+    margin-bottom: 200px;
+}
+.main__btn:hover{
+    box-shadow: 5px 5px 20px 5px #fa0000;
+    opacity: 0.8;
+}
+.main__btn:active{
+    opacity: 0.6;
+
+}
